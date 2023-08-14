@@ -1,0 +1,29 @@
+.task-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.task {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+.task-text {
+  flex: 1;
+  margin-left: 10px;
+}
+.completed {
+  text-decoration: line-through;
+}
+.delete-btn {
+  color: red;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.delete-btn-hidden {
+  display: none;
+}
+#trashList {
+  display: none;
+}
